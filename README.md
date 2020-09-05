@@ -5,8 +5,7 @@ _Korean verion here : [https://github.com/ghoxa/KMUSensorCloud](https://github.c
 <br/>
 **ABSTRACT**   
 Connect air quality sensors(dust sensor, temperature, humidity and pressure sensor, etc...) to Arduino and collect data based on ThingSpeak api.
-We can visualize these collected data and make lots of applications, and even predict numbers by machine learning if those are collected for a few years.(So that we can have enough data)
-Also, we can add other sensors so that extend various applications by web programming based on ThingSpeak or AWS(Amazon Web Service).
+We can visualize these collected data and make lots of applications, and even predict numbers by machine learning if those are collected for a few years(So that we can have enough data). Also, we can add other sensors to extend various applications by web programming based on ThingSpeak or AWS(Amazon Web Service).
 
 ## Table of Contents   
 + [1. Author](#1-author)   
@@ -44,7 +43,7 @@ Also, we can add other sensors so that extend various applications by web progra
 <br/>   
 
 ## 2. Objective   
-* Collecting data from various places by sensing air quality to visualize, analyze and predict   
+* Collecting data from various places by sensing air quality to visualize, analyze and predict future data   
 * **First**, practice by building platform using ThingSpeak   
 * **Second**, linking IoT Device with ThingSpeak and practice   
 * **Third**, configuration Web Application to approach from mobile   
@@ -116,7 +115,7 @@ _Further reference_: [BOSCH](https://www.bosch-sensortec.com/products/environmen
 
 Connect sensors and modules with Arduino board as above.   
 
-You can check details at following [Arduino Sensor Connection](https://air.cs.kookmin.ac.kr/디바이스/law-iot-ta2019)   
+You can check details at following site: [Arduino Sensor Connection](https://air.cs.kookmin.ac.kr/디바이스/law-iot-ta2019)   
 Also, it would be better if you have following knowledge about Arduino Board   
 
 <img width = "500" src = "https://user-images.githubusercontent.com/63793178/92121794-a65cd300-ee35-11ea-9603-1be69fd95832.jpeg">   
