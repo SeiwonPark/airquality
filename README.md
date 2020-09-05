@@ -5,7 +5,7 @@ _Korean verion here : [https://github.com/ghoxa/KMUSensorCloud](https://github.c
 <br/>
 **ABSTRACT**   
 Connect air quality sensors(dust sensor, temperature, humidity and pressure sensor, etc...) to Arduino and collect data based on ThingSpeak api.
-We can visualize these collected data and make lots of applications, and even predict numbers by machine learning if those are collected a few years.
+We can visualize these collected data and make lots of applications, and even predict numbers by machine learning if those are collected for a few years.(So that we can have enough data)
 Also, we can add other sensors so that extend various applications by web programming based on ThingSpeak or AWS(Amazon Web Service).
 
 ## Table of Contents   
