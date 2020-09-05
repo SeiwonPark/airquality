@@ -182,7 +182,7 @@ Execute `wificonnect.ino` and check WiFi communication.
 
 <img width="500" alt="스크린샷 2020-09-03 오전 11 54 24" src="https://user-images.githubusercontent.com/63793178/92066252-6e757180-eddc-11ea-86e1-2b39e8d57fc1.png" width="10%">   
 
-Follow the path ***Tool > Port > Port***, then make sure that serial port setting is correct.   
+Follow the path ***Tool > Port***, then make sure that serial port setting is correct.   
 
 <br/>   
 
@@ -200,7 +200,7 @@ We know that default communication speed of ***3.1 WiFi Module(ESP8266)*** on ES
 <img width="500" alt="스크린샷 2020-09-03 오후 9 21 53" src="https://user-images.githubusercontent.com/63793178/92114288-8c1df780-ee2b-11ea-8e93-93526da61c7b.png" width="30%">   
 
 Enter `AT+ UART_DEF=9600,8,1,0,0` on your monitor as above.   
-_NOTE: AT + UART_DEF = (baudrate),(databits),(stopbits),(parity),(flow control)_   
+_NOTE: `AT + UART_DEF = (baudrate),(databits),(stopbits),(parity),(flow control)`_   
 
 <br/>   
 
@@ -216,7 +216,7 @@ Then click ***`GET STARTED FOR FREE`***.
 
 <img width="700" src = "https://user-images.githubusercontent.com/63793178/92126047-add2ab00-ee3a-11ea-9246-4f975afaea89.jpeg">   
 
-If you are not signed up yet click ***`Created one!`***, or sign in with your E-mail.   
+If you are not signed up yet click ***`Create one!`***, or sign in with your E-mail.   
 
 <br/>    
 
@@ -244,7 +244,7 @@ Refer to [Google Map](https://mainia.tistory.com/2404).
 <br/>   
 
 ### 5.3 Run ***`main.ino`***    
-_NOTE: Make sure that Arduino is connected with your computer correctly and that port and others are set in consistent with **4. Arduino Connection**._   
+_NOTE: Make sure that Arduino is connected correctly with your computer and that port and others are set in consistent with **4. Arduino Connection**_.   
 
 #### 5.3.1 Code Refactoring      
 
@@ -265,7 +265,7 @@ _NOTE: Make sure that Arduino is connected with your computer correctly and that
   
   Copy ***Key*** under ***Write API Key*** then paste it to `#define API_KEY  "Enter"`.   
   
-  And finally upload ***`main.ino`***.  
+  And finally click ***UPLOAD*** in file ***`main.ino`***.  
 
 <br/>    
 
@@ -283,6 +283,6 @@ Follow the path ***Tool > Serial Monitor***, and you can check the figures like 
 
 <img width="700" src = "https://user-images.githubusercontent.com/63793178/92126483-33eef180-ee3b-11ea-9adb-4feb09774d36.jpeg">   
 
-Also at ***Channel*** on ThingSpeak, you can check the values that Arduino sent through Serial and see the values are represented in a graph.   
+Also at ***Channel*** on ThingSpeak, you can check the values that Arduino sent through serial and see the values are represented in a graph.   
 
 <br/>   
