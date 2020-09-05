@@ -45,9 +45,9 @@ Also, we can add other sensors so that extend various applications by web progra
 
 ## 2. Objective   
 * Collecting data from various places by sensing air quality to visualize, analyze and predict   
-* First, practice by building platform using ThingSpeak   
-* Second, linking IoT Device with ThingSpeak and practice   
-* Third, configuration Web Application to approach from mobile   
+* **First**, practice by building platform using ThingSpeak   
+* **Second**, linking IoT Device with ThingSpeak and practice   
+* **Third**, configuration Web Application to approach from mobile   
 
 <br/>   
 
