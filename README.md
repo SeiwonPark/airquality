@@ -283,6 +283,6 @@ Follow the path ***Tool > Serial Monitor***, and you can check the figures like 
 
 <img width="700" src = "https://user-images.githubusercontent.com/63793178/92126483-33eef180-ee3b-11ea-9adb-4feb09774d36.jpeg">   
 
-Also at ***Channel*** on ThingSpeak, you can check the values that Arduino sent through Serial and see represented in a graph.   
+Also at ***Channel*** on ThingSpeak, you can check the values that Arduino sent through Serial and see the values are represented in a graph.   
 
 <br/>   
