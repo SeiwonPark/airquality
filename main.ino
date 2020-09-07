@@ -22,9 +22,9 @@ PMS::DATA Data;
 
 Adafruit_BME280 Bme; // I2C
 
-unsigned int _temperature = 0;
-unsigned int _humidity = 0;
-unsigned int _pressure = 0;
+float _temperature = 0;
+float _humidity = 0;
+float _pressure = 0;
 unsigned int _pm1_0 = 0; //pm1.0
 unsigned int _pm2_5 = 0; //pm2.5
 unsigned int _pm10 = 0;  //pm10
@@ -243,10 +243,22 @@ void send_data()
         return;
     }
     digitalWrite(LED_BUILTIN, HIGH); // 서버 연결성공시 led 켜짐
-
-    char *paramTpl = "?api_key=%s&field1=%d&field2=%d&field3=%d&field4=%d&field5=%d&field6=%d"; //보낼 필드명 정의
+    
+    char param_tem[20];
+    char param_hum[20];
+    char param_pre[20];
+    char param_pm1[20];
+    char param_pm2_5[20];
+    char param_pm10[20];
+    
+    dtostrf(_temperature, 4, 2, param_tem);
+    dtostrf(_humidity, 4, 2, param_hum);
+    dtostrf(_pressure, 5, 2, param_pre);
+    
+    char *paramTpl = "?api_key=%s&field1=%s&field2=%s&field3=%s&field4=%d&field5=%d&field6=%d"; //보낼 필드명 정의
     char param[100];                                                                            //param 사이즈 크기 정의
-    sprintf(param, paramTpl, API_KEY, _temperature, _humidity, _pressure, _pm1_0, _pm2_5, _pm10);
+    sprintf(param, paramTpl, API_KEY, param_tem, param_hum, param_pre, _pm1_0, _pm2_5, _pm10);
+    Serial.println(param);
 
     // This will send the request to the server
     char *headerTpl = "GET /update%s HTTP/1.1\r\n"
