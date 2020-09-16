@@ -1,6 +1,6 @@
 # KMUSensorCloud
 KMU Sensor Cloud Helper   
-This is a project called KMU Crowd Sensor Cloud Air&Home&Web. Copyright © [KOOKMINUNIVERSITY SENSOR CLOUD LAB](https://air.cs.kookmin.ac.kr/)      
+This is a project called KMU Crowd Sensor Cloud Air&Home&Web.   
 _Korean verion here : [https://github.com/ghoxa/KMUSensorCloud](https://github.com/ghoxa/KMUSensorCloud)_   
 <br/>
 **ABSTRACT**   
@@ -195,7 +195,7 @@ When all things are confirmed, Enter `AT` and check whether the output is `OK`. 
 
 <br/>   
 
-We know that default communication speed of ***3.1 WiFi Module(ESP8266)*** on ESP-01 board is 115200bps. By the way, as 9600bps is commonly used due to it's enough speed, let's change speed permanent to 9600bps.   
+We know that default communication speed of ***3.1 WiFi Module(ESP8266)*** on ESP-01 board is 115200bps. By the way, as 9600bps is commonly used due to it's enough speed, let's change speed permanently to 9600bps.   
 
 <img width="500" alt="스크린샷 2020-09-03 오후 9 21 53" src="https://user-images.githubusercontent.com/63793178/92114288-8c1df780-ee2b-11ea-8e93-93526da61c7b.png" width="30%">   
 
@@ -283,6 +283,6 @@ Follow the path ***Tool > Serial Monitor***, and you can check the figures like 
 
 <img width="700" src = "https://user-images.githubusercontent.com/63793178/92126483-33eef180-ee3b-11ea-9adb-4feb09774d36.jpeg">   
 
-Also at ***Channel*** on ThingSpeak, you can check the values that Arduino sent through serial and see the values are represented in a graph.   
+Also at ***Channel*** on ThingSpeak, you can check the values that Arduino sent through serial and see that the values are represented in a graph.   
 
 <br/>   
