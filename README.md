@@ -115,6 +115,13 @@ _Further reference_: [BOSCH](https://www.bosch-sensortec.com/products/environmen
 
 Connect sensors and modules with Arduino board as above.   
 
+***Conncet `BME280` as follows:***    
+
+<img width = "500" src = "https://user-images.githubusercontent.com/63793178/93861043-e0194f00-fcfa-11ea-854d-c4f70521ecb7.jpeg">    
+
+Connect ***<code>+</code>*** with ***<code>VCC</code>*** , ***<code>-</code>*** with ***<code>GND</code>*** , 
+***<code>C</code>*** with ***<code>SCL</code>*** and ***<code>D</code>*** with ***<code>SDA</code>*** respectively.      
+
 You can check details at following site: [Arduino Sensor Connection](https://air.cs.kookmin.ac.kr/디바이스/law-iot-ta2019)   
 Also, it would be better if you have following knowledge about Arduino Board   
 
