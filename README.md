@@ -128,6 +128,30 @@ Parameter | Index
 VCC | 5V 
 GND | 0V    
 
+<br/>    
+
+Now connect a fan module to arduino.
+
+<br/>   
+
+<img width="500" src = "https://user-images.githubusercontent.com/63793178/93875678-62603e00-fd10-11ea-8686-f08e3b4c79b2.jpeg">   
+
+Connect ***<code>VIN</code>*** on arduino board with ***<code>+(Red jumper cable)</code>*** of a fan, then connect ***<code>GND</code>*** on arduino board with ***<code>-(black jumper cable)</code>*** of a fan as above.    
+
+<br/>   
+
+_NOTE: The reason why those cable's colors are different is that we used additional jumper cable in order to lengthen cables. Please don't be confused_   
+
+<br/>   
+
+Also, you can check the RPM of a fan by connecting ***<code>yellow jumper cable</code>*** of a fan with ***<code>Digital PIN</code>*** on arduino board. 
+But the RPM of a fan wasn't calculated in this project.(_NOTE: Thoses yellow PINs on arduino board are Digital PINs, and those blue PINs on arduino board are Analog PINs. And you can see this at **[4.1 Arduino Sensor Connection](#41-arduino-sensor-connection)**_)   
+
+_NOTE: You might question why not connecting ***+*** with ***VCC*** as modules above. But you need to know this: ***VIN*** PIN can 참고로 ***VIN*** 핀은 외부로부터 전원을 공급받을 수 있다는 특징이 있다.
+이러한 특징과 더불어, 팬은 ***12V*** 의 안정적인 전원 공급을 필요로 하기 때문에, 외부 어뎁터를 이용해 팬을 따로 동작할 필요가 있다._   
+<br/>
+
+
 
 If sensors and modules are correctly connected, connect Arudino with computer using cable as follows:    
 
