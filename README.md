@@ -147,8 +147,7 @@ _NOTE: The reason why those cable's colors are different is that we used additio
 Also, you can check the RPM of a fan by connecting ***<code>yellow jumper cable</code>*** of a fan with ***<code>Digital PIN</code>*** on arduino board. 
 But the RPM of a fan wasn't calculated in this project.(_NOTE: Thoses yellow PINs on arduino board are Digital PINs, and those blue PINs on arduino board are Analog PINs. And you can see this at **[4.1 Arduino Sensor Connection](#41-arduino-sensor-connection)**_)   
 
-_NOTE: You might question why not connecting ***+*** with ***VCC*** as modules above. But you need to know this: ***VIN*** PIN can 참고로 ***VIN*** 핀은 외부로부터 전원을 공급받을 수 있다는 특징이 있다.
-이러한 특징과 더불어, 팬은 ***12V*** 의 안정적인 전원 공급을 필요로 하기 때문에, 외부 어뎁터를 이용해 팬을 따로 동작할 필요가 있다._   
+_NOTE: You might question why not connecting ***<code>+</code>*** with ***<code>VCC</code>*** as modules above. But you need to know this: ***<code>VIN</code>*** PIN supplies 12V and as a fan needs stable voltage: 12V, you'd better use external adapter to operate the fan._      
 <br/>
 
 
@@ -223,8 +222,8 @@ We know that default communication speed of ***3.1 WiFi Module(ESP8266)*** on ES
 
 <img width="500" alt="스크린샷 2020-09-03 오후 9 21 53" src="https://user-images.githubusercontent.com/63793178/92114288-8c1df780-ee2b-11ea-8e93-93526da61c7b.png" width="30%">   
 
-Enter `AT+ UART_DEF=9600,8,1,0,0` on your monitor as above.   
-_NOTE: `AT + UART_DEF = (baudrate),(databits),(stopbits),(parity),(flow control)`_   
+Enter `AT+UART_DEF=9600,8,1,0,0` on your monitor as above.   
+_NOTE: `AT+UART_DEF = (baudrate),(databits),(stopbits),(parity),(flow control)`_   
 
 <br/>   
 
