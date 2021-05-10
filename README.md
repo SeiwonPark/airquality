@@ -1,6 +1,5 @@
-# KMUSensorCloud
-KMU Sensor Cloud Helper   
-This is a project called KMU Crowd Sensor Cloud Air&Home&Web.   
+# Airquality
+This is a project from KMU Crowd Sensor Cloud Air&Home&Web.   
 _Korean verion here : [https://github.com/ghoxa/KMUSensorCloud](https://github.com/ghoxa/KMUSensorCloud)_   
 <br/>
 **ABSTRACT**   
